@@ -1,0 +1,124 @@
+@media(max-width:1200px) {
+    #content {
+        display: block;
+    }
+    .content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    hr {
+        display: none;
+    }
+    #lin,
+    #rsses,
+    #pint,
+    #tw {
+        margin-left: 5px;
+    }
+    .network {
+        display: block;
+    }
+    input,
+    textarea {
+        width: 50%;
+    }
+    .submit {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media(max-width:900px) {
+    #bur {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-top: 35px;
+    }
+    .menu a {
+        display: block;
+    }
+    .menu a.valid {
+        display: none;
+    }
+    .menu a {
+        padding: 10px 90px;
+    }
+    .slider p {
+        padding: 45px 100px;
+    }
+    .information {
+        display: none;
+    }
+    .about div {
+        max-width: 100%;
+        text-align: center;
+        display: block;
+        padding-bottom: 25px;
+        padding-top: 15px;
+    }
+    .services_title {
+        margin-bottom: -7px;
+    }
+    .about a {
+        margin-top: 10px;
+    }
+    #quot {
+        display: none;
+    }
+}
+
+@media(max-width:700px) {
+    .slider p {
+        padding: 15px 60px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media(max-width:560px) {
+    .menu a {
+        padding: 10px 50px;
+    }
+    .footer_bottom_info {
+        display: block;
+    }
+    .footer_bottom_info p {
+        margin-bottom: 5px;
+    }
+}
+
+@media(max-width:450px) {
+    .menu a {
+        padding: 10px 20px;
+    }
+    .slider p {
+        padding: 15px 60px;
+    }
+    input,
+    textarea {
+        width: 100%;
+    }
+}
+
+@media(max-width:380px) {
+    .menu a {
+        padding: 10px 5px;
+    }
+    #bur {
+        display: block;
+        width: 10px;
+        height: 10px;
+        margin-top: 15px;
+    }
+    .slider p {
+        padding: 15px 25px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+    #btn-prev,
+    #btn-next {
+        display: none;
+    }
+}
